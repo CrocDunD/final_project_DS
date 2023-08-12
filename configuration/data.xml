@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Enviroment>
+    <!--General-->
+    <WaitTime>5</WaitTime>
+    <ScreenshotPath>C:/Users/daniels/PycharmProjects/final_project/allure-screen-shots/</ScreenshotPath>
+
+    <!--Web-->
+    <Browser>chrome</Browser>
+    <Url>http://localhost:3000/</Url>
+    <UserName>admin</UserName>
+    <Password>admin1</Password>
+    <CSV_Location>C:/Users/daniels/PycharmProjects/final_project/ddt/users.csv</CSV_Location>
+</Enviroment>

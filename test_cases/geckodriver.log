@@ -1,0 +1,115 @@
+1689341262568	geckodriver	INFO	Listening on 127.0.0.1:54747
+1689341265617	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\daniels\\AppData\\Local\\Temp\\rust_mozprofilejhr0B8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689341266162	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1689341266594	Marionette	INFO	Listening on port 54757
+Read port: 54757
+1689341266893	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1689341268685	Marionette	INFO	Stopped listening on port 54757
+Dynamically enable window occlusion 1
+1689341277713	geckodriver	INFO	Listening on 127.0.0.1:54783
+1689341280770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\daniels\\AppData\\Local\\Temp\\rust_mozprofilenDM931"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689341281117	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1689341281456	Marionette	INFO	Listening on port 54797
+Read port: 54797
+1689341281672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1689341285382	Marionette	INFO	Stopped listening on port 54797
+Dynamically enable window occlusion 1
+1689424417153	geckodriver	INFO	Listening on 127.0.0.1:58016
+1689424420162	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\daniels\\AppData\\Local\\Temp\\rust_mozprofileNBS1dt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689424420697	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1689424421181	Marionette	INFO	Listening on port 58028
+Read port: 58028
+1689424421479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1689424521145	Marionette	INFO	Stopped listening on port 58028
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1690024965474	geckodriver	INFO	Listening on 127.0.0.1:53061
+1690024968501	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\daniels\\AppData\\Local\\Temp\\rust_mozprofilewoowss"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690024969183	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1690024969760	Marionette	INFO	Listening on port 53072
+Read port: 53072
+1690024970147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1690024972740	Marionette	INFO	Stopped listening on port 53072
+Dynamically enable window occlusion 1
+1690024978315	geckodriver	INFO	Listening on 127.0.0.1:53101
+1690024981341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\daniels\\AppData\\Local\\Temp\\rust_mozprofile2zqRkE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690024981862	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1690024982379	Marionette	INFO	Listening on port 53112
+Read port: 53112
+1690024982708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+1690024986777	Marionette	INFO	Stopped listening on port 53112
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 111))
+1690025128281	geckodriver	INFO	Listening on 127.0.0.1:53235
+1690025131330	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\daniels\\AppData\\Local\\Temp\\rust_mozprofileNipCDR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690025131846	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1690025132273	Marionette	INFO	Listening on port 53245
+Read port: 53245
+1690025132540	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+1690025136523	Marionette	INFO	Stopped listening on port 53245
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 111))
+1690025177858	geckodriver	INFO	Listening on 127.0.0.1:53312
+1690025180932	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\daniels\\AppData\\Local\\Temp\\rust_mozprofile1B1qxv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690025181497	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1690025181982	Marionette	INFO	Listening on port 53322
+Read port: 53322
+1690025182265	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+1690025186279	Marionette	INFO	Stopped listening on port 53322
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/partitioning-exempt-urls list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+1690923563058	geckodriver	INFO	Listening on 127.0.0.1:57467
+1690923566071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\daniels\\AppData\\Local\\Temp\\rust_mozprofile91ktRu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690923566759	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1690923567709	Marionette	INFO	Listening on port 57477
+Read port: 57477
+1690923568147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1690923571872	Marionette	INFO	Stopped listening on port 57477
+Dynamically enable window occlusion 1
+1690923582226	geckodriver	INFO	Listening on 127.0.0.1:57518
+1690923585260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\daniels\\AppData\\Local\\Temp\\rust_mozprofilek7TiHC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690923585735	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1690923586194	Marionette	INFO	Listening on port 57528
+Read port: 57528
+1690923586521	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+1690923594760	Marionette	INFO	Stopped listening on port 57528
+Dynamically enable window occlusion 1
