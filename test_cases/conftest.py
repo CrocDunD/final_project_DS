@@ -1,6 +1,7 @@
 import allure
 import pytest
-from selenium import webdriver
+import appium.webdriver
+import selenium.webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.event_firing_webdriver import EventFiringWebDriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -32,6 +33,16 @@ def init_web_driver(request):
     Manage_Pages.init_web_pages()
     yield
     driver.quit()
+@pytest.fixture(scope='class')
+def init_mobile_driver(request):
+    global driver
+    driver = get_mobile_driver()
+    driver.implicitly_wait(int(get_data('WaitTime')))
+    request.cls.driver = driver
+
+    yield
+    driver.quit()
+
 
 
 def get_web_driver():
@@ -46,17 +57,46 @@ def get_web_driver():
     return driver
 
 
+def get_mobile_driver():
+    if get_data('MobileDevice').lower() == 'android':
+        driver = get_android(get_data('UDID'))
+    elif get_data('MobileDevice').lower() == 'ios':
+        driver = get_ios(get_data('UDID'))
+    else:
+        raise Exception('Wrong Input, Unrecognised Browser')
+    return driver
+
 def get_chrome():
-    chrome_driver = webdriver.Chrome((ChromeDriverManager(version='114.0.5735.90').install()))
+    chrome_driver = selenium.webdriver.Chrome((ChromeDriverManager(version='114.0.5735.90').install()))
     return chrome_driver
 
 def get_firefox():
-    ff_driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+    ff_driver = selenium.webdriver.Firefox(executable_path=GeckoDriverManager().install())
     return ff_driver
 
 def get_edge():
-    edge_driver = webdriver.Edge(EdgeChromiumDriverManager().install())
+    edge_driver = selenium.webdriver.Edge(EdgeChromiumDriverManager().install())
     return edge_driver
+
+def get_android(udid):
+    dc = {}
+    dc['udid'] = udid
+    dc['appPackage'] = get_data('AppPackage')
+    dc['appActivity'] = get_data('AppActivity')
+    dc['platformName'] = 'android'
+    android_driver = appium.webdriver.Remote(get_data('AppiumServer'), dc)
+    return android_driver
+
+def get_ios(udid):
+    dc = {}
+    dc['udid'] = udid
+    dc['appPackage'] = get_data('AppPackage')
+    dc['bundle_id'] = get_data('BundleID')
+    dc['platformName'] = 'ios'
+    ios_driver = appium.webdriver.Remote(get_data('AppiumServer'), dc)
+    return ios_driver
+
+
 
 #catch exceptions and errors
 def pytest_exception_interact(node, call, report):

@@ -10,4 +10,12 @@
     <UserName>admin</UserName>
     <Password>admin1</Password>
     <CSV_Location>C:/Users/daniels/PycharmProjects/final_project/ddt/users.csv</CSV_Location>
+
+    <!--mobile-->
+    <MobileDevice>Android</MobileDevice>
+    <UDID>1C091FDF6002YB</UDID>
+    <AppPackage>tapcounter.svimph.com.tapcounter</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+    <BundleID></BundleID>
 </Enviroment>
